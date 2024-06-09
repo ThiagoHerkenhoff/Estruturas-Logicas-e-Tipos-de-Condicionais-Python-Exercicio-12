@@ -1,0 +1,12 @@
+# 12 - Ler um número inteiro. Se o número lido for negativo, escreva a mensagem "Número Inválido".
+# Se o número for positivo, calcular o logaritmo deste número.
+
+import math
+
+n = int(input('Informe um número: '))
+
+if n < 0:
+    print('Número Inválido')
+else:
+    log = math.log(n)
+    print(f'O logaritmo de {n} é : {log}')
